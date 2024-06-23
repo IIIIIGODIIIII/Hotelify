@@ -1,0 +1,11 @@
+/* #Login {
+  margin-left: 73vw;
+  margin-right: 1vw;
+}
+
+#Signup {
+  margin-right: 60vw;
+} */
+.navbar {
+  z-index: 10;
+}
