@@ -24,12 +24,11 @@ To get a local copy up and running, follow these steps:
    
    ```bash
    npm install
-
+   
 ## Usage
 1. Start the development server
 
    ```terminal
    npm start
-   
 2. Navigate the application
 Open your browser and go to http://localhost:3000 to use the app.
