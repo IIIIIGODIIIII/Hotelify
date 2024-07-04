@@ -1,16 +1,35 @@
 # Hotelify
-HackOWASP
+Hotelify is a web application developed to provide a convenient platform for hotel guests. It offers functionalities such as food ordering, room service, and booking management, potentially integrating NFC for keyless room entry.
 
-This project, built during a hackathon, provides a user-friendly web application for hotel guests, allowing them to conveniently:
+## Features
+1. Order Food Directly: Streamlined interface for placing food orders without phone calls.
+2. Access Room Service: Simple clicks within the app to enjoy room service.
+3. Manage Bookings: (Optional) Simplify check-in or manage existing reservations.
+4. NFC Keyless Entry: (Optional) Convenient room access using NFC (requires compatible hardware).
 
-Order food directly: Eliminate the need for phone calls with a streamlined interface for placing food orders.
-Access room service: Enjoy the comfort of room service through a few simple clicks within the app.
-Manage bookings: (Optional: If your app includes booking functionality) Simplify the check-in process or manage existing reservations.
-Utilize NFC for keyless entry: (Optional: If your app integrates with NFC) Offer a convenient alternative for accessing rooms if a physical key is lost (requires compatible hardware).
+## Installation
+To get a local copy up and running, follow these steps:
 
-This project was developed within the constraints of a hackathon, focusing on rapid prototyping and demonstrating core functionalities. While the project is functional, it may require further development for production use, such as:
+1. Clone the repository
+   
+   ```bash
+    git clone https://github.com/IIIIIGODIIIII/Hotelify.git
 
-Enhanced security measures
-Extensive testing and bug fixing
-Integration with backend services (if applicable) for order management and room service requests
-Scalability considerations for handling a larger user base
+2. Navigate to the project directory
+   
+   ```bash
+   cd Hotelify
+
+3. Install the required packages
+   
+   ```bash
+   npm install
+
+## Usage
+1. Start the development server
+
+   ```terminal
+   npm start
+   
+2. Navigate the application
+Open your browser and go to http://localhost:3000 to use the app.
